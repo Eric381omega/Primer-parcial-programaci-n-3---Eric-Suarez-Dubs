@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body>
+
+    <div class="admin-container">
+        
+        <header class="navbar">
+            <h1 class="logo">Panel Admin</h1>
+            <button id="logoutButton" class="btn logout">Logout</button>
+        </header>
+
+        <main class="content">
+
+    <div class="card">
+        <h2>Gestionar productos</h2>
+
+        <input id="name" placeholder="Nombre del producto" required />
+        <input id="price" type="number" placeholder="Precio" required />
+
+        <input id="category" placeholder="Categoría (comida, bebida...)" required />
+
+        <textarea id="description" placeholder="Descripción"></textarea>
+   
+        <input id="image" placeholder="URL de la imagen" />
+
+        <img id="imagePreview" style="width:100%; max-height:150px; object-fit:cover; border-radius:10px; margin-top:10px;" />
+
+         <button id="addProductBtn" class="btn primary">Agregar</button>
+    </div>
+
+    <div id="adminProducts" class="product-grid"></div>
+
+</main>
+
+    </div>
+
+    <script type="module" src="./home.ts"></script>
+</body>
+</html>
