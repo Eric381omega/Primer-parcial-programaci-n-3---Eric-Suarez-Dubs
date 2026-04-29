@@ -10,3 +10,5 @@ En mi caso no eh encontrado ningun error grave y la pagina funciona plenamente d
 Eso es todo, muchas gracias por todo y buenos dias.
 
  -Eric.
+
+ Link del video: https://www.youtube.com/watch?v=6qt86Fokt1Q 
